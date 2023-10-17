@@ -1,0 +1,16 @@
+{
+	"name": "Ubuntu",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-toolsai.jupyter-keymap",
+				"ms-toolsai.jupyter",
+				"ms-python.python",
+				"ms-python.vscode-pylance"
+			]
+		}
+	}
+}
